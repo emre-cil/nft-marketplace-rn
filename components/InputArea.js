@@ -17,7 +17,7 @@ const InputArea = ({ onSearch }) => {
         <Image source={assets.search} resizeMode="contain" style={{ width: 20, height: 20, marginRight: SIZES.base }} />
         <TextInput
           placeholder="Search NFTs"
-          style={{ flex: 1, border: 0, outline: 0 }}
+          style={{ flex: 1, height: '100%' }}
           placeholderTextColor={COLORS.white}
           onChangeText={onSearch}
         />
